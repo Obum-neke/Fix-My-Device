@@ -4,21 +4,25 @@ import Home from "./routes/Home"
 import About from "./routes/About"
 import Careers from "./routes/Careers"
 import Support from "./routes/Support"
-
-import { Route, Routes } from  "react-router-dom";
 import RepairmyDevice from "./routes/RepairmyDevice";
+
+
+
+import { BrowserRouter as Router, Routes, Route } from  "react-router-dom";
 
 
 function App() {
   return (
-    <>
+    <> 
+    <Router>
      <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/" element={<About />} />
-      <Route path="/" element={<Careers />} />
-      <Route path="/" element={<Support />} />
-      <Route path="/" element={<RepairmyDevice />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/career" element={<Careers />} />
+      <Route path="/support" element={<Support />} />
+      <Route path="/repairmydevice" element={<RepairmyDevice />} />
       </Routes> 
+      </Router>
     </>
   );
 }
