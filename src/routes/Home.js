@@ -41,8 +41,14 @@ const Home = () => {
 
       <section>
         <h2>How Fix My Device Works For You</h2>
-        
+      </section>
 
+      <section>
+        <h3>Customer Feedback and Reviews</h3>
+        <p>
+          Here's what our wonderful customers have to say
+        </p>
+        
       </section>
 
       <Footer/>

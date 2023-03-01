@@ -8,11 +8,11 @@ const About = () => {
     <div>
        <Navbar />
 
-      <h1>Our Core Values</h1>
+      <p>An Online IT support and Service that Focuses on Nigeria's mobile device market and provides an efficient and reliable ecosystem of repair and maintenance of mobile devices for gadget owners without the fear of sub-standard service that tends to be offered by regular gadgets repairers.</p>
       <div className='values'> 
-      <h3> Our Values </h3>
+      <h3> Our Core Values </h3>
       <p>
-        Efficiency. Responsiveness. Authenticity. Convenience. Transparency
+        Efficiency|Responsiveness|Authenticity|Convenience|Transparency
       </p>
       </div>
 
