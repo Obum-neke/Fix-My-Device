@@ -7,6 +7,7 @@ import laptop2 from"../assets/laptop2.png";
 import gamepad from"../assets/gamepad.png";
 import others2 from  "../assets/others2.png";
 import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
 
 const Home = () => {
   return ( 
@@ -43,6 +44,8 @@ const Home = () => {
         
 
       </section>
+
+      <Footer/>
 
        </div>
 

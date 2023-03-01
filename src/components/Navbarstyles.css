@@ -9,7 +9,12 @@
     display: flex;
 }
 
-@media screen and (max-width: 1040px) {
+.theh1 {
+    
+
+}
+
+@media screen and (max-width: 400px) {
     .nav-menu {
       flex-direction: column;
       justify-content: center;

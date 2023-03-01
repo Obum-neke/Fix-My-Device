@@ -1,0 +1,39 @@
+.values
+{
+    background-color: #E6F0FE ;
+    height: 200px ;
+    margin-top: 100px ;
+    margin-bottom: 20px ;
+
+}
+
+.vision{
+    background-color: #E6F0FE ;
+    height: 200px ;
+    margin-top: 70px ;
+
+
+}
+
+.mission{
+    background-color: #E6F0FE ;
+    height: 200px ;
+    margin-top: 70px ;
+
+}
+
+
+h3 {
+    color: #0052C4 ;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1{
+    color: #0052C4 ;
+    text-align: center;
+}

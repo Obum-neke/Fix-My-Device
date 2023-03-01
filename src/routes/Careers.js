@@ -1,11 +1,17 @@
 import React from 'react'
+import "../components/careers.css";
+import Footer from "../components/footer";
+import Navbar from "../components/Navbar";
 
-const project = () => {
+
+const Careers = () => {
   return (
     <div>
-      Project
+      <Navbar/>
+      <Footer/>
     </div>
   )
 }
 
-export default project
+export default Careers
+

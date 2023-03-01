@@ -1,6 +1,7 @@
 import "./Navbarstyles.css"
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.png"
 
 
 
@@ -12,7 +13,8 @@ const Navbar = () => {
     <div className="header">
         
         <NavLink to="/">
-            <h1>FixmyDevice</h1>
+        <img src={logo} alt="" />
+            <h1 className="theh1">FixmyDevice</h1>
         </NavLink>
         <ul className="nav-menu">
             <li>
