@@ -36,19 +36,20 @@ const footer = () => {
       <div>
         <h3>Know Fixmydevice</h3>
         <div>
-        <Link to='/'>About Us </Link> <br /> 
-        <Link to='/'>Careers </Link> <br />
-        <Link to=''>Privacy Policy</Link> <br />
-        <Link to='/'>FAQ'S</Link>         <Link to='#'>Terms and Conditions</Link>
+        <Link to='/about'>About Us </Link> <br /> 
+        <Link to='/careers'>Careers </Link> <br />
+        <Link to='/about'>Privacy Policy</Link> <br />
+        <Link to='/support'>FAQ'S</Link>        
+       <Link to='/'>Terms and Conditions</Link>
         </div>
       </div>
 
       <div>
         <h3>Contact Us</h3>
         <span>
-        <Link to='/'>Help Center </Link> <br />
-        <Link to='/'>Become a Vendor</Link> <br />
-        <Link to=''>How to make a report</Link>  
+        <Link to='/support'>Help Center </Link> <br />
+        <Link to='/careers'>Become a Vendor</Link> <br />
+        <Link to='/support'>How to make a report</Link>  
         </span>
       </div>
 
