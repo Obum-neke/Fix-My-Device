@@ -69,14 +69,23 @@ h4{
 
 .socialmedia{
     display: flex;
-    flex-direction: row;
+    
 }
 
-.socialmedia img {
-    width: 80%;}
+
 
 .firstrow{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+}
+
+.contact-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.know-links{
+    display: flex;
+    flex-direction: column;
 }
