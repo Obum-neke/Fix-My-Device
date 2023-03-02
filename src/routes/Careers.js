@@ -8,10 +8,21 @@ const Careers = () => {
   return (
     <div>
       <Navbar/>
+      <div>Hello</div>
+
+
+
+
+
+
+
       <Footer/>
+      
     </div>
   )
 }
 
 export default Careers
+
+
 

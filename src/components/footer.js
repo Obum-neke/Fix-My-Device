@@ -18,39 +18,40 @@ const footer = () => {
     
         <footer> 
           <img src={logo} alt="" />
-        <h1>Fixmydevice</h1>
-        <p>Didn't you know you had that much power? <b />
+        <h1 className='headlogo
+        '>Fixmydevice</h1>
+        <p className='first-row'>Didn't you know you had that much power? <b />
         You can do anything! In life, you need colors</p>
 
-        <div>
+        <div className='socialmedia'>
           <h3>Follow Us</h3>
           <div>
-          <img src={Instagram} alt="" />
-        <img src={Twitter} alt="" />
-        <img src={Facebook} alt="" />
-        <img src={LinkedIn} alt="" />
+          <p><img src={Instagram} alt="" /></p>
+          <p><img src={Twitter} alt="" /></p>
+          <p><img src={Facebook} alt="" /></p>
+          <p><img src={LinkedIn} alt="" /></p>
           </div>
         
         </div>
       
-      <div>
+      <div className='know-links'>
         <h3>Know Fixmydevice</h3>
         <div>
         <Link to='/about'>About Us </Link> <br /> 
         <Link to='/careers'>Careers </Link> <br />
         <Link to='/about'>Privacy Policy</Link> <br />
-        <Link to='/support'>FAQ'S</Link>        
-       <Link to='/'>Terms and Conditions</Link>
+        <Link to='/support'>FAQ'S</Link> <br/>       
+       <Link to='/about'>Terms and Conditions</Link>
         </div>
       </div>
 
-      <div>
+      <div className='contact-links'>
         <h3>Contact Us</h3>
-        <span>
+        <div>
         <Link to='/support'>Help Center </Link> <br />
         <Link to='/careers'>Become a Vendor</Link> <br />
         <Link to='/support'>How to make a report</Link>  
-        </span>
+        </div>
       </div>
 
       

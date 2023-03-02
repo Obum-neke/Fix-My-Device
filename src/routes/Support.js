@@ -8,39 +8,57 @@ const contact = () => {
     <div>
       <Navbar/>
       <div>
-        
-        Does Fixmydevice issue warranty on repaired devices? 
+
+        <h1>Frequently Asked Questions</h1>
+
+        <div className='questions'>
+        <div className='one'>
+        Does Fixmydevice issue warranty on repaired devices?
+        </div> 
         
       </div>
+      <hr></hr>
 
-      <span>
+      <div className='two'>
         What if my device is under warranty and I have lost the invoice?
-      </span>
+      </div>
+      <hr></hr>
       
-      <span>
+      <div className='three'>
         How can you help if I am unable to identify the fault in my phone?
-      </span>
+      </div>
+      <hr></hr>
 
-      <span>
+      <div className='four'>
         How long would it take to fix my device?
-      </span>
-      <span>
+      </div>
+      <hr></hr>
+
+      <div className='five'>
         Does Fixmydevice repair devices with new phone parts?
-      </span>
-      <span>
+      </div>
+      <hr></hr>
+
+      <div className='six'>
         Does Fixmydevice sell device parts or tools?
-      </span>
-      <span>
+      </div>
+      <hr></hr>
+
+      <div className='seven'>
         Do you offer doorstep delivery?
-      </span>
-      <span>
+      </div>
+      <hr></hr>
+
+      <div className='eight'>
         Is my device 100% safe in your custody?
-      </span>
+      </div>
+      <hr></hr>
+      </div>
 
       <div>
-        <h3>Can't find your answer?</h3>
+        <h3 className='answer'>Can't find your answer?</h3>
         <p>If you have specific questions or request, visit our customer support.</p>
-        <button>Contact Us</button>
+        <button className='btn'>Contact Us</button>
       </div>
 
       <Footer/>

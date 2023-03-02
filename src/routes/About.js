@@ -8,7 +8,7 @@ const About = () => {
     <div>
        <Navbar />
 
-      <p>An Online IT support and Service that Focuses on Nigeria's mobile device market and provides an efficient and reliable ecosystem of repair and maintenance of mobile devices for gadget owners without the fear of sub-standard service that tends to be offered by regular gadgets repairers.</p>
+      <p className='intro'>An Online IT support and Service that Focuses on Nigeria's mobile device market and provides an efficient and reliable ecosystem of repair and maintenance of mobile devices for gadget owners without the fear of sub-standard service that tends to be offered by regular gadgets repairers.</p>
       <div className='values'> 
       <h3> Our Core Values </h3>
       <p>
