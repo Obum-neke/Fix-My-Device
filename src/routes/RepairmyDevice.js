@@ -8,7 +8,7 @@ import tablet from "../assets/tablet.png"
 import laptop from "../assets/laptop.png"
 import gamepad from "../assets/game.png"
 import others from "../assets/others.png"
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 
