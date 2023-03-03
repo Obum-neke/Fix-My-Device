@@ -18,7 +18,7 @@ const RepairmyDevice = () => {
      <Navbar />
      <h1>Please Select Your Device</h1> 
      <div>
-       <Link to="./Iphonemodels"> <img src={appleiphone} alt="" /> </Link>
+       <Link to="/Iphonemodels"> <img src={appleiphone} alt="" /> </Link>
         <img src={android} alt="" />
         <img src={tablet} alt="" />
         <img src={laptop} alt="" />

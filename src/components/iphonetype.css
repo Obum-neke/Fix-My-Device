@@ -1,0 +1,83 @@
+.btns{
+    display: flex;
+    
+
+}
+
+.header-one{
+    background-image: url(../assets/iphonebackground.jpg);
+    height: 696px;
+    background-repeat: no-repeat;
+    
+}
+.btn1{
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+background-color: rgba(230, 240, 254, 0.35);
+padding: 44px 120px;
+gap: 10px;
+border: 1;
+}
+
+.btnh2{
+    margin-top: 20px;
+
+}
+
+
+.btn2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+}
+
+.btn4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.btn6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* flex-direction: column;
+align-items: flex-start;
+padding: 44px 120px;
+gap: 10px;
+
+position: absolute;
+width: 1440px;
+height: 1130px;
+left: 0px;
+top: 757px;
+
+background: rgba(230, 240, 254, 0.35);} */
